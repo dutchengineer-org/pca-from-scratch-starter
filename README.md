@@ -16,11 +16,15 @@ A PCA implementation built from the linear algebra primitives you studied in thi
 
 ## Getting started
 
-1. Fork this repository
-2. Clone your fork: `git clone https://github.com/<your-username>/pca-from-scratch-starter`
+1. **Fork this repository** — click **Fork** at the top of [this page](https://github.com/dutchengineer-org/pca-from-scratch-starter) to create your own copy.
+2. Clone your fork:
+   ```
+   git clone https://github.com/<your-username>/pca-from-scratch-starter
+   cd pca-from-scratch-starter
+   ```
 3. Install dependencies: `uv sync`
-4. Run the CLI: `uv run python pca.py data.csv --n-components 3`
+4. Build and run: `uv run python pca.py data.csv --n-components 3`
 
 ## Submitting
 
-Push your completed work to your fork. Paste the repository URL into the capstone submission form in your dashboard.
+When your work is ready, paste your repository URL into the submission form on your [capstone page](https://dutchengineer.org/foundations/linear-algebra-for-ml/capstone-pca-from-scratch/).
